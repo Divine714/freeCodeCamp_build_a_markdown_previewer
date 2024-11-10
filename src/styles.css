@@ -1,0 +1,38 @@
+.App {
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(186, 155, 226);
+}
+#editor {
+  min-width: 500px;
+  min-height: 200px;
+}
+
+#textArea {
+  display: flex;
+  justify-content: center;
+}
+
+h2,
+h1 {
+  text-align: center;
+}
+
+img {
+  display: flex;
+  justify-content: center;
+  max-width: 500px;
+  padding: 20px;
+}
+blockquote {
+  border: 3px solid rgb(52, 48, 48);
+  border-bottom: none;
+  border-right: none;
+  border-top: none;
+}
+
+#preview {
+  margin-left: 25px;
+  margin-right: 25px;
+}
